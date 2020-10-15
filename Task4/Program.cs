@@ -37,6 +37,7 @@ namespace Task4
             //    }
             //}
             #endregion
+            #region Решение с Do While
             int counter = 0;
             do
             {
@@ -56,7 +57,7 @@ namespace Task4
                     counter++;
                 }
             } while (counter != 3);
-
+            #endregion
         }
 
         static bool Authorization (string login, string pass)
