@@ -51,6 +51,7 @@ namespace Task1
         public string Print()
         {
             return b < 0? $"{a} - {-b}i" : $"{a} + {b}i";
+
         }
     }
 
@@ -80,7 +81,7 @@ namespace Task1
             //ComplexClass resultMultClass = ComplexClass.Mult(x1, x2);
             //Console.WriteLine(resultMultClass.Print() + " - умножение комплексных чисел, созданных с помощью класса");
             //ComplexClass resultSumClass = ComplexClass.Sum(x1, x2);
-            //Console.WriteLine(resultSumClass.Print() );
+            //Console.WriteLine(resultSumClass.Print());
 
             #endregion
 
@@ -96,14 +97,17 @@ namespace Task1
             ComplexClass number1 = new ComplexClass(r1, i1);
             ComplexClass number2 = new ComplexClass(r2, i2);
 
+
             Console.WriteLine($"Получившиеся комплексные числа: {number1.Print()} и {number2.Print()}." +
                 $" \nВведите пожалуйста номер действия, которое вы хотите с ними произвести:\n" +
                 $"1. Сложение\n" +
                 $"2. Вычитание\n" +
                 $"3. Умножение");
+
             int button = Convert.ToInt32(Console.ReadLine());
 
-              switch (button)
+            
+            switch (button)
             {
                 case 1:
                     ComplexClass resultSum = ComplexClass.Sum(number1, number2);
@@ -113,11 +117,12 @@ namespace Task1
                     ComplexClass resultSub = ComplexClass.Sub(number1, number2);
                     Console.WriteLine($"Вы выбрали вычитание. Результат:\n{resultSub.Print()}");
                     break;
-                case 3 :
+                case 3:
                     ComplexClass resultMult = ComplexClass.Mult(number1, number2);
                     Console.WriteLine($"Вы выбрали вычитание. Результат:\n{resultMult.Print()}");
                     break;
-                default: Console.WriteLine("Такой команды нет.");
+                default:
+                    Console.WriteLine("Такой команды нет.");
                     break;
 
             }
