@@ -27,8 +27,13 @@ namespace Task2__4th_lesson_
 
             Console.ReadLine();
 
-            Console.WriteLine($"{StaticClass.ArrayFromFile("ArrayFile.txt")}");
-
+            int[] arrfile = StaticClass.ArrayFromFile("ArrayFile.txt");
+            foreach (var item in arrfile)
+            {
+                Console.WriteLine($"{item} ");
+            }
+            Console.WriteLine($"Количество пар {StaticClass.PairCounter(arrfile)}");
+           
             Console.ReadLine();
 
         }
