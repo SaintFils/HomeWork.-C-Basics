@@ -37,9 +37,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2 (5th lesson)", "Task2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Sixth Lesson", "6.Sixth Lesson", "{D1BF63F4-E55A-472C-84B7-78D992BD4B51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{D5058A98-AC31-4793-A04B-28617D6BBB20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1 (6th lesson)", "ConsoleApp2\Task1 (6th lesson).csproj", "{D5058A98-AC31-4793-A04B-28617D6BBB20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{981B2B62-A69A-43BF-9023-2472798E69F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2 (6th lesson)", "ConsoleApp3\Task2 (6th lesson).csproj", "{981B2B62-A69A-43BF-9023-2472798E69F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
